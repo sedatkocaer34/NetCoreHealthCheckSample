@@ -34,7 +34,17 @@ namespace NetCoreHealthCheckSample
                 tags: null,
                 timeout: TimeSpan.FromSeconds(5));
 
-           
+            // Minimum 1 Gb empty system disk area.
+
+            builder.AddDiskStorageHealthCheck(options => options.AddDrive("C:\\", 1024));
+
+            // Maximum 512 mb system ram area (for virtual).
+
+            builder.AddVirtualMemorySizeHealthCheck(512);
+
+            // Maximum 512 mb system ram area (for private).
+
+            builder.AddPrivateMemoryHealthCheck(512);
 
             services.AddDbConfiguration(Configuration);
         }
@@ -54,14 +64,16 @@ namespace NetCoreHealthCheckSample
             app.UseAuthorization();
 
             app.UseHealthChecks(path: "/hc",
-                options: new HealthCheckOptions()
-                {
-                    Predicate = _ => true,
-                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-                });
+            options: new HealthCheckOptions()
+            {
+                Predicate = _ => true,
+                ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+            });
+
             app.UseHealthChecksUI(options => 
             {
                 options.UIPath = "/hc-ui";
+                options.AddCustomStylesheet("Content/health-check-system-ui.css");
             });
 
             app.UseEndpoints(endpoints =>

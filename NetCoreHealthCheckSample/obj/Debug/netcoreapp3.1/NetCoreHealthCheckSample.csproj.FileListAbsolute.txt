@@ -96,3 +96,12 @@ C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bi
 C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\obj\Debug\netcoreapp3.1\NetCoreHealthCheckSample.csprojAssemblyReference.cache
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\HealthChecks.Network.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\HealthChecks.System.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\System.Threading.AccessControl.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll

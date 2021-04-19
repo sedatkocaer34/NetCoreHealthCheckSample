@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "AspNetCore.HealthChecks.SqlServer": {
               "target": "Package",
               "version": "[3.1.1, )"

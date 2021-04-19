@@ -105,3 +105,8 @@ C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bi
 C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
 C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\HealthChecks.Redis.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\sedat\source\repos\NetCoreHealthCheckSample\NetCoreHealthCheckSample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll

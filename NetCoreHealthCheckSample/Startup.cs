@@ -23,29 +23,7 @@ namespace NetCoreHealthCheckSample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddHealthChecksUI().AddInMemoryStorage();
-
-            var builder = services.AddHealthChecks();
-            builder.AddSqlServer(
-                Configuration.GetConnectionString("DefaultConnection"),
-                healthQuery: "select 1",
-                name: "Sql Server",
-                failureStatus: null,
-                tags: null,
-                timeout: TimeSpan.FromSeconds(5));
-
-            builder.AddRedis(redisConnectionString: Configuration.GetConnectionString("Redis"),
-            failureStatus: HealthStatus.Degraded);
-
-            // Minimum 1 Gb empty system disk area.
-            builder.AddDiskStorageHealthCheck(options => options.AddDrive("C:\\", 1024));
-
-            // Maximum 512 mb system ram area (for virtual).
-            builder.AddVirtualMemorySizeHealthCheck(512);
-
-            // Maximum 512 mb system ram area (for private).
-            builder.AddPrivateMemoryHealthCheck(512);
-
+            services.AddHealthCheckConfiguration(Configuration);
             services.AddDbConfiguration(Configuration);
         }
 
